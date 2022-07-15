@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/botlist.css">
+
+    <link rel="stylesheet" href="chatbot/static/css/chat.css">
+    <link rel="stylesheet" href="chatbot/static/css/home.css">
+    <link rel="stylesheet" href="chatbot/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chat app</title>
+</head>
+<body>
+
+    <nav>
+        <div class="menu-wrap">
+            <div class="burger" onclick="burgerFunction()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+    
+            <div class="logo">
+                <h3>Yuri kun's ChatBot</h3>
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="micontainer">
+
+            <div class="sidebar">
+                <ul class="botlist">
+
+                    <h2>Bots</h2>
+
+                    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+                    <a href="harumin.html">
+                    <div class="botlist-container">
+                      <li>  <img src="https://i.pinimg.com/originals/ac/d9/d1/acd9d14e9cd2f6a990dc1d07dd465023.jpg" alt="Harumin" width="48px"
+                        height="48px"><h3>Harumin</h3></li>
+                    </div></a>
+                    <a href="#" class="list-active">
+                    <div class="botlist-container">
+                        <li> <img src="https://9tailedkitsune.com/wp-content/uploads/2021/06/kurumiowouwu.jpg" alt="Megumi" width="48px"
+                            height="48px"><h3>Kurumeow</h3></li>
+                    </div></a>
+                    <a href="japanese.html">
+                        <div class="botlist-container">
+                            <li><img src="https://apprecs.org/ios/images/app-icons/256/a8/1226096296.jpg" alt="Megumi" width="48px"
+                                height="48px"><h3>Japanese</h3></li>
+                        </div></a>
+                    <a href="udin.html">
+                    <div class="botlist-container">
+                        <li><img src="https://i.pinimg.com/736x/36/52/e7/3652e7bae997f73f9139265ac92dc0aa.jpg" alt="Megumi" width="48px"
+                            height="48px"><h3>Udin</h3></li>
+                    </div></a>
+                   
+                </ul>
+            </div>
+
+            <div id="messageContainer" class="message-container">
+
+                <div class="full-chat-block">
+                    <!-- Message Container -->
+                    <div class="outer-container">
+                        <div class="chat-container">
+                            <!-- Messages -->
+                            <div id="chatbox">
+                                <h5 id="chat-timestamp"></h5>
+                                <p id="botStarterMessage" class="botText"><span></span></p>
+                                <p id="botStarterMessage1" class="botSecondText"><span></span></p>
+                            </div>
+    
+                              <!-- User input box -->
+    
+                              <div id="chat-bar-bottom">
+                            <p></p>
+                              </div>
+     
+                        </div>
+                    </div>
+    
+                </div>
+       
+    
+                </div>
+                
+                <div class="send-messages">
+                    <div id="userInput">
+                        <input id="textInput" class="input-box" type="text" name="msg"
+                            placeholder="Message">
+                    </div>
+                    <button class="sendBtn" id="button" onclick="sendButton()">Send</button>
+                </div>
+           
+        </div>
+
+    </div>
+
+    <script src="javascript/bot.js"></script>
+    <script src="javascript/app.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="chatbot/static/scripts/kurumi.js"></script>
+    <script src="chatbot/static/scripts/chat.js"></script>
+</body>
+</html>

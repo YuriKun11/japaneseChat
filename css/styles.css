@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #252032;
+}
+.logo{
+    margin-left: 1rem;
+    color: white;
+}
+
+body{
+    background-color: #362E4C;
+    
+}
+
+
+input{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 15px;
+    margin: 0 1rem;
+}
+
+input[type=text] {
+    padding-left: 15px; 
+}
+
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.message-container li{
+   margin-left: 1rem;
+   margin-top: 8px;
+   border-radius: 5px;
+   display: flex;
+   max-width: 300px;
+   width: auto;
+   height: auto;
+   min-height: 3rem;
+   list-style: none;
+   color: black;
+   align-items: center;
+   background-color: #FEFEFE;
+   float:left;
+   clear:left;
+   display: inline;
+   
+}
+
+.message-container p{
+    margin: 1em 1rem 1em;
+ }
+
+ul{
+    float: right;
+}
+
+#person1 li{
+   align-items: end;
+   justify-content: flex-start;
+   
+}
+
+#person2 li{
+    
+    justify-content: flex-end;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #3A3847;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.main{
+    padding-top: 8vh;
+}
+
+.container{
+    
+    height: 92vh;
+    background-color: #3A3847;
+    position: relative;
+    color: black;
+    max-width: 60rem;
+    max-width: 0 auto;
+    margin: 0 auto;
+    padding: 10;
+}
+
+.send-messages{
+    display: flex;
+}
+
+.send-messages .sendBtn{
+    cursor: pointer;
+    background-color: #AC95F2;
+    border: none;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.message-container .user-message{
+    margin-right: 1rem;
+}
+
+.message-container{
+    display: flex;
+    justify-content: space-between;
+    height: calc(100% - 50px);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.message-container .top{
+    margin-top: 0.7rem;
+    color: #AC95F2;
+    text-align: center;
+    align-items: center;
+
+}
+

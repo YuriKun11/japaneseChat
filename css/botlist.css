@@ -1,0 +1,44 @@
+.botlist a{
+    text-decoration: none;
+    color: white;
+}
+
+.botlist h2{
+    margin-left: 0.3rem;
+    padding: 0.5rem;
+}
+
+.botlist li{
+    list-style: none;
+    
+}
+
+.botlist-container li:hover{
+    background-color: #43385D;
+    transition: all 300ms ease;
+
+}
+
+.botlist-container h3{
+    margin-left: 1rem;
+
+}
+
+.botlist-container li{
+    display: flex;
+    align-items: center;
+    min-height: 3.5rem;
+}
+
+.botlist-container img{
+    border-radius: 50%;
+}
+
+.list-active li{
+    background-color: #43385D;
+}
+
+.list-active{
+    background-color: #43385D;
+    min-height: 3.5rem;
+}

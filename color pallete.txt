@@ -1,0 +1,8 @@
+Color Pallete ka muna
+
+#252032 - Primary/bg
+#362E4C
+#43385D
+#AC95F2 - Font Color 1
+#FEFEFE - Font Color 2
+#3A3847 - CardView
